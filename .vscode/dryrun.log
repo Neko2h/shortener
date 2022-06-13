@@ -1,0 +1,4 @@
+make: Entering directory 'd:/Playground/my_repost/shortener'
+migrate -path migrations/postgres -database "postgresql://postgres:postgres@localhost:5432/links?sslmode=disable" -verbose up
+make: Leaving directory 'd:/Playground/my_repost/shortener'
+ 
