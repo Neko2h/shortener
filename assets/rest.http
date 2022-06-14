@@ -1,0 +1,22 @@
+### Index
+GET http://localhost:8080/
+
+
+### ADD NEW SITE 
+POST http://localhost:8080/
+Content-Type: application/json
+
+{
+    "origin" : "https://google.com"
+}
+
+### ERR REQUEST
+POST http://localhost:8080/
+Content-Type: application/json
+
+{
+    "origin" : "htt"
+}
+
+### GET SITE id: 1
+GET http://localhost:8080/Lhr4BWAi

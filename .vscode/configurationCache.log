@@ -1,1 +1,1 @@
-{"buildTargets":["docker-tests","migrateup-up","os_check","tests","tests-all","tests-integration","tests-unit"],"launchTargets":[],"customConfigurationProvider":{"workspaceBrowse":{"browsePath":[],"compilerArgs":[]},"fileIndex":[]}}
+{"buildTargets":["docker-tests","migrateup-up","os_check","tests-all","tests-integration","tests-local","tests-unit"],"launchTargets":[],"customConfigurationProvider":{"workspaceBrowse":{"browsePath":[],"compilerArgs":[]},"fileIndex":[]}}

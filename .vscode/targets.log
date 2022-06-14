@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Tue Jun 14 09:08:08 2022
+# Make data base, printed on Tue Jun 14 10:35:11 2022
 
 # Variables
 
@@ -27,13 +27,11 @@ USERPROFILE = C:\Users\it9
 # environment
 VBOX_MSI_INSTALL_PATH = C:\Program Files\Oracle\VirtualBox\
 # environment
-LOCAL_GIT_DIRECTORY = C:\Users\it9\AppData\Local\GitHubDesktop\app-3.0.1\resources\app\git
-# environment
 LOCALAPPDATA = C:\Users\it9\AppData\Local
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-aee0944b-e8b1-4ab7-9cc1-492a46c1ee6d-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-3a9f395c-12af-4aab-8b7b-b1a00e0f0559-sock
 # environment
-VSCODE_CWD = C:\Users\it9\AppData\Local\GitHubDesktop\app-3.0.1
+VSCODE_CWD = C:\Users\it9\AppData\Local\Programs\Microsoft VS Code
 # environment
 CHOCOLATEYINSTALL = C:\ProgramData\chocolatey
 # makefile (from 'Makefile', line 2)
@@ -53,7 +51,7 @@ GOPATH = C:\Users\it9\go
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_7400_PQAKNDLFNSDABAXJ
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_2892_SJLKYWFJQRKACGYG
 # environment
 FPS_BROWSER_USER_PROFILE_STRING = Default
 # environment
@@ -109,7 +107,7 @@ MAKEFILE_LIST := Makefile
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 7400
+VSCODE_PID = 2892
 # automatic
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
 # automatic
@@ -178,6 +176,8 @@ USERDOMAIN = AUTOCAR
 GNUMAKEFLAGS := 
 # environment
 OS = Windows_NT
+# environment
+__COMPAT_LAYER = DetectorsAppHealth
 # makefile
 .DEFAULT_GOAL := migrateup-up
 # default
@@ -222,10 +222,6 @@ SUFFIXES :=
 ALLUSERSPROFILE = C:\ProgramData
 # environment
 SESSIONNAME = Console
-# environment
-VSCODE_CLI = 1
-# environment
-ELECTRON_NO_ATTACH_CONSOLE = 1
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync load
 # environment
@@ -233,7 +229,7 @@ PROCESSOR_REVISION = 1100
 # environment
 PROCESSOR_IDENTIFIER = AMD64 Family 23 Model 17 Stepping 0, AuthenticAMD
 # variable set hash-table stats:
-# Load=110/1024=11%, Rehash=0, Collisions=11/138=8%
+# Load=108/1024=11%, Rehash=0, Collisions=11/136=8%
 
 # Pattern-specific Variable Values
 
@@ -241,9 +237,9 @@ PROCESSOR_IDENTIFIER = AMD64 Family 23 Model 17 Stepping 0, AuthenticAMD
 
 # Directories
 
-# . (key c:/Users/it9/Desktop/go/shortener, mtime 1655186821): 16 files, no impossibilities.
+# . (key c:/Users/it9/Desktop/go/shortener, mtime 1655187359): 17 files, no impossibilities.
 
-# 16 files, no impossibilities in 1 directories.
+# 17 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -256,7 +252,7 @@ tests-all:
 #  Modification time never checked.
 #  File has not been updated.
 #  recipe to execute (from 'Makefile', line 15):
-	godotenv -f ./.env go test -race -coverprofile=coverage.out -covermode=atomic ./...
+	godotenv -f ./.env go test -race -coverprofile="coverage.out" -covermode="atomic" ./...
 
 migrateup-up:
 #  Implicit rule search has not been done.
@@ -268,7 +264,7 @@ migrateup-up:
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-06-14 09:07:01
+#  Last modified 2022-06-14 09:16:06
 #  File has been updated.
 #  Successfully updated.
 
@@ -285,11 +281,6 @@ tests-integration:
 #  File has not been updated.
 #  recipe to execute (from 'Makefile', line 11):
 	godotenv -f ./.env go test -v -run ".Integration" ./...
-
-tests: docker-tests os_check migrateup-up tests-integration tests-unit
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
 
 tests-unit:
 #  Implicit rule search has not been done.
@@ -311,6 +302,11 @@ all:
 #  File does not exist.
 #  File has not been updated.
 
+tests-local: docker-tests os_check migrateup-up tests-integration tests-unit
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
 docker-tests:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
@@ -324,15 +320,15 @@ docker-tests:
 
 # No 'vpath' search paths.
 
-# 
- No general ('VPATH' variable) search path.
+# No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 26 / storage = 224 B / avg = 8 B
-# current buf: size = 8174 B / used = 224 B / count = 26 / avg = 8 B
+# strcache buffers: 1 (0) / strings = 27 / storage = 243 B / avg = 9 B
+ 
+# current buf: size = 8174 B / used = 243 B / count = 27 / avg = 9 B
 
-# strcache performance: lookups = 42 / hit rate = 38%
+# strcache performance: lookups = 43 / hit rate = 37%
 # hash-table stats:
-# Load=26/8192=0%, Rehash=0, Collisions=0/42=0%
-# Finished Make data base on Tue Jun 14 09:08:08 2022
+# Load=27/8192=0%, Rehash=0, Collisions=0/43=0%
+# Finished Make data base on Tue Jun 14 10:35:11 2022
 
  
