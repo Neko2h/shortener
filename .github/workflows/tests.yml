@@ -56,7 +56,7 @@ jobs:
         sudo mv migrate.linux-amd64 /usr/bin/migrate
         which migrate
     - name: Run migrations postgres
-      run: make migrateup-pg
+      run: make migrateup-up
 
     - name: Run go vet
       run: go vet ./...
