@@ -1,4 +1,5 @@
-make: Entering directory 'd:/Playground/my_repost/shortener'
+make.exe --dry-run --always-make --keep-going --print-directory
+make: Entering directory 'c:/Users/it9/Desktop/go/shortener'
 migrate -path migrations/postgres -database "postgresql://postgres:postgres@localhost:5432/links?sslmode=disable" -verbose up
-make: Leaving directory 'd:/Playground/my_repost/shortener'
+make: Leaving directory 'c:/Users/it9/Desktop/go/shortener'
  

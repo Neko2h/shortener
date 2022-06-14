@@ -8,26 +8,32 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Mon Jun 13 23:03:09 2022
+# Make data base, printed on Tue Jun 14 09:08:08 2022
 
 # Variables
 
 # environment
 FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
 # environment
+GO111MODULE = on
+# environment
+JAVA_HOME = C:\Program Files\Java\jre1.8.0_291\bin
+# environment
 SYSTEMDRIVE = C:
 # environment
 LC_ALL = C
 # environment
-USERPROFILE = C:\Users\Denis
+USERPROFILE = C:\Users\it9
 # environment
 VBOX_MSI_INSTALL_PATH = C:\Program Files\Oracle\VirtualBox\
 # environment
-LOCALAPPDATA = C:\Users\Denis\AppData\Local
+LOCAL_GIT_DIRECTORY = C:\Users\it9\AppData\Local\GitHubDesktop\app-3.0.1\resources\app\git
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-2e45d47b-0602-4dc4-a6b8-f98ec561014e-sock
+LOCALAPPDATA = C:\Users\it9\AppData\Local
 # environment
-VSCODE_CWD = C:\Users\Denis\AppData\Local\Programs\Microsoft VS Code
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-aee0944b-e8b1-4ab7-9cc1-492a46c1ee6d-sock
+# environment
+VSCODE_CWD = C:\Users\it9\AppData\Local\GitHubDesktop\app-3.0.1
 # environment
 CHOCOLATEYINSTALL = C:\ProgramData\chocolatey
 # makefile (from 'Makefile', line 2)
@@ -41,12 +47,13 @@ PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\Wi
 # default
 MAKE_COMMAND := C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe
 # environment
-GOPATH = C:\Users\Denis\go
-# automatic
-@D = $(patsubst %/,%,$(pa 
-tsubst %\,%,$(dir $@)))
+USERDNSDOMAIN = AUTOCAR.RU
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_13380_KWRVDRQXZXJCXUXI
+GOPATH = C:\Users\it9\go
+# automatic
+@D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_7400_PQAKNDLFNSDABAXJ
 # environment
 FPS_BROWSER_USER_PROFILE_STRING = Default
 # environment
@@ -62,14 +69,13 @@ VSCODE_LOG_STACK = false
 # automatic
 %F = $(notdir $%)
 # environment
-VSCODE_CODE_CACHE_PATH = C:\Users\Denis\AppData\Roaming\Code\Cached 
-Data\4af164ea3a06f701fe3e89a2bcbb421d2026b68f
+VSCODE_CODE_CACHE_PATH = C:\Users\it9\AppData\Roaming\Code\CachedData\4af164ea3a06f701fe3e89a2bcbb421d2026b68f
 # environment
 LANG = C
 # default
 .LOADED := 
 # environment
-TMP = C:\Users\Denis\AppData\Local\Temp
+TMP = C:\Users\it9\AppData\Local\Temp
 # default
 .INCLUDE_DIRS = .
 # environment
@@ -77,9 +83,9 @@ PROCESSOR_ARCHITEW6432 = AMD64
 # makefile
 MAKEFLAGS = pqrR
 # environment
-ONEDRIVE = C:\Users\Denis\OneDrive
+ONEDRIVE = C:\Users\it9\OneDrive
 # makefile
-CURDIR := d:/Playground/my_repost/shortener
+CURDIR := c:/Users/it9/Desktop/go/shortener
 # environment
 VSCODE_PIPE_LOGGING = true
 # environment
@@ -93,8 +99,6 @@ MFLAGS = -pqrR
 # default
 .SHELLFLAGS := -c
 # environment
-EGPL_GEOLIBRARIAN_DRIVE = L
-# environment
 COMMONPROGRAMW6432 = C:\Program Files\Common Files
 # automatic
 +D = $(patsubst %/,%,$(patsubst %\,%,$(dir $+)))
@@ -105,9 +109,7 @@ MAKEFILE_LIST := Makefile
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 13380
-# environment
-CUDA_PATH = C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.3
+VSCODE_PID = 7400
 # automatic
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
 # automatic
@@ -115,23 +117,19 @@ CUDA_PATH = C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.3
 # automatic
 <D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
 # environment
-PHPSTORM = C:\Program Files\JetBrains\PhpStorm 2020.2.4\bin;
+PHPSTORM = C:\Program Files\JetBrains\PhpStorm 2021.1.2\bin;
 # environment
 VSCODE_NLS_CONFIG = {"locale":"ru","availableLanguages":{},"_languagePackSupport":true}
-# environment
-ONEDRIVECONSUMER = C:\Users\Denis\OneDrive
 # default
 MAKE_HOST := Windows32
 # environment
 PROGRAMDATA = C:\ProgramData
 # default
 SHELL := sh.exe
-# environment
-NVCUDASAMPLES11_3_ROOT = C:\ProgramData\NVIDIA Corporation\CUDA Samples\v11.3
 # makefile (from 'Makefile', line 1)
 PG_URL = postgresql://postgres:postgres@localhost:5432/links?sslmode=disable
 # environment
-HOMEPATH = \Users\Denis
+HOMEPATH = \Users\it9
 # default
 MAKECMDGOALS := all
 # environment
@@ -145,9 +143,9 @@ MAKELEVEL := 0
 # default
 MAKE = $(MAKE_COMMAND)
 # environment
-PATH = D:\Program Files (x86)\VMware\VMware Player\bin\;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.3\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.3\libnvvp;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Common Files\Seagate\SnapAPI\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\TortoiseGit\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\HashiCorp\Vagrant\bin;C:\Program Files\NVIDIA Corporation\Nsight Compute 2021.1.1\;C:\Program Files\WireGuard\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\nodejs\;C:\Program Files\Go\bin;C:\ffmpeg;C:\Users\Denis\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\Denis\AppData\Local\Programs\Python\Python39\;C:\Users\Denis\AppData\Local\Microsoft\WindowsApps;C:\Users\�����\AppData\Roaming\npm;C:\Users\�����\AppData\Local\.meteor;C:\Users\Denis\AppData\Local\Programs\Fiddler;C:\Program Files\JetBrains\PhpStorm 2020.2.4\bin;;C:\Users\Denis\AppData\Local\Microsoft\WindowsApps;C:\Users\Denis\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Denis\AppData\Local\GitHubDesktop\bin;C:\Users\Denis\AppData\Roaming\npm;C:\Users\Denis\go\bin
+PATH = C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\ImageMagick-7.0.11-Q16-HDRI;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Program Files\nodejs\;C:\Program Files\Java\jre1.8.0_291\bin;C:\HashiCorp\Vagrant\bin;C:\ProgramData\chocolatey\bin;;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Go\bin;C:\Program Files\WireGuard\;C:\Users\it9\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\it9\AppData\Local\Programs\Python\Python39\;C:\Users\it9\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\PhpStorm 2021.1.2\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2021.1.1\bin;C:\Users\it9\AppData\Roaming\npm;C:\Users\it9\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\it9\AppData\Local\Programs\Fiddler;C:\Users\it9\AppData\Local\GitHubDesktop\bin;C:\Users\it9\go\bin
 # environment
-COMPUTERNAME = DESKTOP-1FA8180
+COMPUTERNAME = WEBDEV
 # default
 MAKEFILES := 
 # automatic
@@ -155,19 +153,13 @@ MAKEFILES :=
 # environment
 PROMPT = $P$G
 # environment
-CHOCOLATEYLASTPATHUPDATE = 132970342367003255
+CHOCOLATEYLASTPATHUPDATE = 132971551253065549
 # environment
-NVTOOLSEXT_PATH = C:\Program Files\NVIDIA Corporation\NvToolsExt\
-# environment
-GOBIN = C:\Users\Denis\go\bin
-# environment
-CUDA_PATH_V11_3 = C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.3
-# environment
-LOGONSERVER = \\DESKTOP-1FA8180
+LOGONSERVER = \\SPZDC
 # environment
 VSCODE_LOG_NATIVE = false
 # environment
-USERNAME = �����
+USERNAME = it9
 # environment
 COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
 # automatic
@@ -181,13 +173,11 @@ PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
 # environment
 ORIGINAL_XDG_CURRENT_DESKTOP = undefined
 # environment
-USERDOMAIN = DESKTOP-1FA8180
+USERDOMAIN = AUTOCAR
 # 'override' directive
 GNUMAKEFLAGS := 
 # environment
 OS = Windows_NT
-# environment
-__COMPAT_LAYER = DetectorsAppHealth
 # makefile
 .DEFAULT_GOAL := migrateup-up
 # default
@@ -195,22 +185,21 @@ MAKE_VERSION := 4.3
 # environment
 PROGRAMFILES(X86) = C:\Program Files (x86)
 # environment
-NVCUDASAMPLES_ROOT = C:\ProgramData\NVIDIA Corporation\CUDA Samples\v11.3
-# environment
-USERDOMAIN_ROAMINGPROFILE = DESKTOP-1FA8180
+USERDOMAIN_ROAMINGPROFILE = AUTOCAR
 # environment
 NUMBER_OF_PROCESSORS = 4
 # environment
 PUBLIC = C:\Users\Public
 # environment
-APPDATA = C:\Users\Denis\AppData\Roaming
+APPDATA = C:\Users\it9\AppData\Roaming
 # environment
 HOMEDRIVE = C:
 # environment
 PROCESSOR_ARCHITECTURE = x86
- 
 # environment
-GOMODCACHE = C:\Users\Denis\go\pkg\mod
+PYCHARM COMMUNITY EDITION = C:\Program Files\JetBrains\PyCharm Community Edition 2021.1.1\bin;
+# environment
+GOMODCACHE = C:\Users\it9\go\pkg\mod
 # environment
 VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # environment
@@ -218,31 +207,33 @@ COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-TEMP = C:\Users\Denis\AppData\Local\Temp
+TEMP = C:\Users\it9\AppData\Local\Temp
 # environment
-VSCODE_IPC_HOOK = \\.\pipe\e977901e31f717266078ea916e2fb74e-1.68.0-main-sock
+VSCODE_IPC_HOOK = \\.\pipe\d8303f449ce57798ee5f05f43b33b1e2-1.68.0-main-sock
 # environment
 GOPROXY = https://proxy.golang.org,direct
 # default
 .RECIPEPREFIX := 
 # automatic
 <F = $(notdir $<)
-# environment
-AV_APPDATA = C:\Users\Denis\AppData\Roaming
 # default
 SUFFIXES := 
 # environment
 ALLUSERSPROFILE = C:\ProgramData
 # environment
 SESSIONNAME = Console
+# environment
+VSCODE_CLI = 1
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync load
 # environment
-PROCESSOR_REVISION = 0101
+PROCESSOR_REVISION = 1100
 # environment
-PROCESSOR_IDENTIFIER = AMD64 Family 23 Model 1 Stepping 1, AuthenticAMD
+PROCESSOR_IDENTIFIER = AMD64 Family 23 Model 17 Stepping 0, AuthenticAMD
 # variable set hash-table stats:
-# Load=113/1024=11%, Rehash=0, Collisions=11/141=8%
+# Load=110/1024=11%, Rehash=0, Collisions=11/138=8%
 
 # Pattern-specific Variable Values
 
@@ -250,7 +241,7 @@ PROCESSOR_IDENTIFIER = AMD64 Family 23 Model 1 Stepping 1, AuthenticAMD
 
 # Directories
 
-# . (key d:/Playground/my_repost/shortener, mtime 1655150588): 16 files, no impossibilities.
+# . (key c:/Users/it9/Desktop/go/shortener, mtime 1655186821): 16 files, no impossibilities.
 
 # 16 files, no impossibilities in 1 directories.
 
@@ -259,6 +250,13 @@ PROCESSOR_IDENTIFIER = AMD64 Family 23 Model 1 Stepping 1, AuthenticAMD
 # No implicit rules.
 
 # Files
+
+tests-all:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 15):
+	godotenv -f ./.env go test -race -coverprofile=coverage.out -covermode=atomic ./...
 
 migrateup-up:
 #  Implicit rule search has not been done.
@@ -270,7 +268,7 @@ migrateup-up:
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-06-13 01:09:59
+#  Last modified 2022-06-14 09:07:01
 #  File has been updated.
 #  Successfully updated.
 
@@ -278,14 +276,14 @@ os_check:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 23):
+#  recipe to execute (from 'Makefile', line 25):
 	timeout $(SLEEP_TIME)
 
 tests-integration:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 12):
+#  recipe to execute (from 'Makefile', line 11):
 	godotenv -f ./.env go test -v -run ".Integration" ./...
 
 tests: docker-tests os_check migrateup-up tests-integration tests-unit
@@ -297,7 +295,7 @@ tests-unit:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 15):
+#  recipe to execute (from 'Makefile', line 13):
 	go test -v -run ".Unit" ./...
 
 # Not a target:
@@ -321,19 +319,20 @@ docker-tests:
 	docker-compose -f ./deploy/docker-compose.tests.yaml up -d
 
 # files hash-table stats:
-# Load=10/1024=1%, Rehash=0, Collisions=0/26=0%
+# Load=11/1024=1%, Rehash=0, Collisions=0/27=0%
 # VPATH Search Paths
 
 # No 'vpath' search paths.
 
-# No general ('VPATH' variable) search path.
+# 
+ No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 25 / storage = 214 B / avg = 8 B
-# current buf: size = 8174 B / used = 214 B / count = 25 / avg = 8 B
+# strcache buffers: 1 (0) / strings = 26 / storage = 224 B / avg = 8 B
+# current buf: size = 8174 B / used = 224 B / count = 26 / avg = 8 B
 
-# strcache performance: lookups = 40 / hit rate = 37%
+# strcache performance: lookups = 42 / hit rate = 38%
 # hash-table stats:
-# Load=25/8192=0%, Rehash=0, Collisions=0/40=0%
-# Finished Make data base on Mon Jun 13 23:03:09 2022
+# Load=26/8192=0%, Rehash=0, Collisions=0/42=0%
+# Finished Make data base on Tue Jun 14 09:08:08 2022
 
  

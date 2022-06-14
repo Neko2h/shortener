@@ -50,11 +50,13 @@ func (us *LinkWebUsecase) Get(ctx context.Context, hash string) (*entity.Link, e
 
 func (us *LinkWebUsecase) New(ctx context.Context, link *entity.Link) (*entity.Link, error) {
 
-	if hash := helpers.GenerateShortLink(link.Origin); hash == "" {
-		return nil, errors.New("hash creation failed")
-	} else {
-		link.Hash = hash
+	if link.Origin == "" {
+		return nil, errors.New("origin is empty")
 	}
+
+	hash := helpers.GenerateShortLink(link.Origin)
+
+	link.Hash = hash
 
 	newLink, err := us.db.New(ctx, link.ToDB())
 	if err != nil {

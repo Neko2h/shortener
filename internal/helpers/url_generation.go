@@ -26,6 +26,7 @@ func base58Encoded(bytes []byte) string {
 }
 
 func GenerateShortLink(initialLink string) string {
+
 	urlHashBytes := sha256Of(initialLink)
 	generatedNumber := new(big.Int).SetBytes(urlHashBytes).Uint64()
 	finalString := base58Encoded([]byte(fmt.Sprintf("%d", generatedNumber)))
