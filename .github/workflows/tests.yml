@@ -58,6 +58,13 @@ jobs:
     - name: Run migrations postgres
       run: make migrateup-up
 
+
+
+    - name: Install godotenv
+      run: go install github.com/joho/godotenv/cmd/godotenv@latest
+
+
+
     - name: Run go vet
       run: go vet ./...
 
