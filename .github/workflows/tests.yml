@@ -46,6 +46,9 @@ jobs:
     - name: Check out code into the Go module directory
       uses: actions/checkout@v3
 
+    - name: Install godotenv
+      run: go install github.com/joho/godotenv/cmd/godotenv@latest
+
     - name: Install golang-migrate
       run: |
         curl -L https://github.com/golang-migrate/migrate/releases/download/v4.14.1/migrate.linux-amd64.tar.gz | tar xvz
@@ -53,9 +56,6 @@ jobs:
         which migrate
     - name: Run migrations postgres
       run: make migrateup-up
-
-    - name: Install godotenv
-      run: go install github.com/joho/godotenv/cmd/godotenv@latest
 
     - name: Run go vet
       run: go vet ./...
@@ -68,12 +68,6 @@ jobs:
 
     - name: golangci-lint
       uses: golangci/golangci-lint-action@v3  
-
-    # - name: Integrational tests
-    #   run: make tests-integration
-
-    # - name: Unit tests
-    #   run: make tests-unit
 
     - name: Run coverage
       run: make tests-all
