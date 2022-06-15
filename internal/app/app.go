@@ -8,12 +8,18 @@ import (
 	"github.com/Neko2h/shortener/internal/store/cache/redis"
 	"github.com/Neko2h/shortener/internal/store/db/postgres"
 	"github.com/Neko2h/shortener/internal/usecase"
+	"github.com/Neko2h/shortener/pkg/migrations"
 	"github.com/labstack/echo/v4"
 )
 
 func NewApp() {
 
 	store, err := postgres.NewPgDb(os.Getenv("PG_URL"))
+	if err != nil {
+		panic(err)
+	}
+
+	err = migrations.RunMigrations(os.Getenv("PG_MIGRATIONS_PATH"), os.Getenv("PG_URL"))
 	if err != nil {
 		panic(err)
 	}

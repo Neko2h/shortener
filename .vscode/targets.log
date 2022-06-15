@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Tue Jun 14 10:35:11 2022
+# Make data base, printed on Wed Jun 15 09:12:15 2022
 
 # Variables
 
@@ -29,7 +29,7 @@ VBOX_MSI_INSTALL_PATH = C:\Program Files\Oracle\VirtualBox\
 # environment
 LOCALAPPDATA = C:\Users\it9\AppData\Local
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-3a9f395c-12af-4aab-8b7b-b1a00e0f0559-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-9e08cd35-44f6-4dd2-a043-5cd19fa4cb62-sock
 # environment
 VSCODE_CWD = C:\Users\it9\AppData\Local\Programs\Microsoft VS Code
 # environment
@@ -51,7 +51,7 @@ GOPATH = C:\Users\it9\go
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_2892_SJLKYWFJQRKACGYG
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_7184_MRSHQAOMALWQWWHQ
 # environment
 FPS_BROWSER_USER_PROFILE_STRING = Default
 # environment
@@ -107,7 +107,7 @@ MAKEFILE_LIST := Makefile
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 2892
+VSCODE_PID = 7184
 # automatic
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
 # automatic
@@ -176,8 +176,6 @@ USERDOMAIN = AUTOCAR
 GNUMAKEFLAGS := 
 # environment
 OS = Windows_NT
-# environment
-__COMPAT_LAYER = DetectorsAppHealth
 # makefile
 .DEFAULT_GOAL := migrateup-up
 # default
@@ -229,7 +227,7 @@ PROCESSOR_REVISION = 1100
 # environment
 PROCESSOR_IDENTIFIER = AMD64 Family 23 Model 17 Stepping 0, AuthenticAMD
 # variable set hash-table stats:
-# Load=108/1024=11%, Rehash=0, Collisions=11/136=8%
+# Load=107/1024=10%, Rehash=0, Collisions=11/135=8%
 
 # Pattern-specific Variable Values
 
@@ -237,9 +235,9 @@ PROCESSOR_IDENTIFIER = AMD64 Family 23 Model 17 Stepping 0, AuthenticAMD
 
 # Directories
 
-# . (key c:/Users/it9/Desktop/go/shortener, mtime 1655187359): 17 files, no impossibilities.
+# . (key c:/Users/it9/Desktop/go/shortener, mtime 1655197897): 21 files, no impossibilities.
 
-# 17 files, no impossibilities in 1 directories.
+# 21 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -252,7 +250,7 @@ tests-all:
 #  Modification time never checked.
 #  File has not been updated.
 #  recipe to execute (from 'Makefile', line 15):
-	godotenv -f ./.env go test -race -coverprofile="coverage.out" -covermode="atomic" ./...
+	godotenv -f ./.env go test -coverprofile="coverage.out" -covermode="atomic" ./...
 
 migrateup-up:
 #  Implicit rule search has not been done.
@@ -264,7 +262,7 @@ migrateup-up:
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-06-14 09:16:06
+#  Last modified 2022-06-14 12:19:02
 #  File has been updated.
 #  Successfully updated.
 
@@ -322,13 +320,12 @@ docker-tests:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 27 / storage = 243 B / avg = 9 B
- 
-# current buf: size = 8174 B / used = 243 B / count = 27 / avg = 9 B
+# strcache buffers: 1 (0) / strings = 31 / storage = 274 B / avg = 8 B
+# current buf: size = 8174 B / used = 274 B / count = 31 / avg = 8 B
 
-# strcache performance: lookups = 43 / hit rate = 37%
+# strcache performance: lookups = 47 / hit rate = 34%
 # hash-table stats:
-# Load=27/8192=0%, Rehash=0, Collisions=0/43=0%
-# Finished Make data base on Tue Jun 14 10:35:11 2022
+# Load=31/8192=0%, Rehash=0, Collisions=0/47=0%
+# Finished Make data base on Wed Jun 15 09:12:15 2022
 
  
